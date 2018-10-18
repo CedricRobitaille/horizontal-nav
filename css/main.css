@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Bevan', sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #dbd6cf;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.Top h1 {
+  position: fixed;
+  display: inline-block;
+  width: 100%
+  background-color #713837;
+  border: 3px solid #595652;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Boxes li {
+  display: inline-block;
+  margin: .3em;
+  max-width: 20em;
+  padding: .6em, .5em .75em;
+  background-color: #713837;
+  border: 3px solid #595652;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Boxes li.hover {
+  background-color: #f33;
+}
