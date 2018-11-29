@@ -1,38 +1,57 @@
 html {
   box-sizing: border-box;
-  font-family: 'Bevan', sans-serif;
-  line-height: 1.5;
-  color: #fff;
   background-color: #dbd6cf;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: Bevan, serif;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+ul > li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-.Top h1 {
-  position: fixed;
-  display: inline-block;
-  width: 100%
-  background-color #713837;
-  border: 3px solid #595652;
-  border-radius: 10px;
   text-align: center;
-  text-decoration: none;
 }
 
-.Boxes li {
-  display: inline-block;
-  margin: .3em;
-  max-width: 20em;
-  padding: .6em, .5em .75em;
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
   background-color: #713837;
-  border: 3px solid #595652;
-  border-radius: 10px;
-  text-align: center;
-  text-decoration: none;
+  border-radius: .3em;
+  display: inline-block;
+  margin-top: .3em;
+  padding: .6em;
 }
 
-.Boxes li.hover {
+body {
+  margin: 0;
+}
+
+.box {
+  background-color: #79756f;
+  border-bottom: 3px;
+  border-top: 3px;
+  border-style: solid;
+  border-color: #595652;
+  padding: .75em;
+}
+
+a:hover {
+  border-radius: .3em;
+  border-color: #f33;
   background-color: #f33;
 }
